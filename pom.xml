@@ -71,7 +71,7 @@
       <dependency>
         <groupId>ch.qos.logback</groupId>
         <artifactId>logback-classic</artifactId>
-        <version>1.0.9</version>
+        <version>1.5.14</version>
         <scope>provided</scope>
       </dependency>
       <dependency>
@@ -141,7 +141,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -194,7 +194,7 @@
               <format>xml</format>
               <maxmem>256m</maxmem>
               <aggregate>true</aggregate>
-              <check></check>
+              <check/>
             </configuration>
           </plugin>
           <plugin>
